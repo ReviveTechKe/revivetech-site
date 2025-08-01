@@ -2,30 +2,72 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ReviveTech KE</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReviveTech KE - Revive Your Gadget</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-  <header class="hero">
-    <h1>ReviveTech KE</h1>
-    <p>Revive Your Gadget</p>
-    <p>Repair & Sales — Phones, Tablets, Laptops</p>
-  </header>
-  <section class="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Screen Replacement</li>
-      <li>Battery Replacement</li>
-      <li>Charging Port Repair</li>
-      <li>Laptop Fixes</li>
-      <li>Tablet Diagnostics</li>
-      <li>Accessories</li>
-    </ul>
-  </section>
-  <footer>
-    <p>Contact: 📧 revivetechke@gmail.com | 📱 0728 004 941</p>
-  </footer>
+    <header>
+        <h1>ReviveTech KE</h1>
+        <p>Revive Your Gadget</p>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Repair & Sales — Phones, Tablets, Laptops</h2>
+        <a href="#form" class="btn">Book a Repair</a>
+        <a href="#" class="btn">Shop Now</a>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Screen Replacement</li>
+            <li>Battery Replacement</li>
+            <li>Charging Port Repair</li>
+            <li>Tablet & Laptop Diagnostics</li>
+            <li>Accessories</li>
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>Why Choose Us?</h2>
+        <ul>
+            <li>Fast Turnaround</li>
+            <li>Certified Technicians</li>
+            <li>Fair Pricing</li>
+            <li>Quality Parts</li>
+        </ul>
+    </section>
+
+    <section id="form">
+        <h2>Book a Repair</h2>
+        <form>
+            <label>Device Type (Phone / Tablet / Laptop)</label><br>
+            <input type="text" name="device_type"><br>
+            <label>Describe Fault</label><br>
+            <textarea name="fault"></textarea><br>
+            <label>Customer Name</label><br>
+            <input type="text" name="name"><br>
+            <label>Phone Number</label><br>
+            <input type="text" name="phone"><br>
+            <label>Email Address</label><br>
+            <input type="email" name="email"><br>
+            <button type="submit">Submit Request</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>ReviveTech KE | Nairobi, Kenya | 0728 004 941 | revivetechke@gmail.com</p>
+        <p>Instagram: @revivetech_ke | Facebook: ReviveTech KE</p>
+    </footer>
 </body>
 </html>
